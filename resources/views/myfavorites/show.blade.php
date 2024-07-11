@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Products Management')
+@section('title', 'Kriteria Management')
 
 @section('content_header')
-<h2> Show Product </h2>
+<h2> Show Kriteria </h2>
 <div class="pull-right">
     
     {{-- <a class="btn btn-secondary" href="{{ route('myfavorites.index') }}"> Back</a> --}}
@@ -58,43 +58,43 @@
         <td><strong>Product Name</strong></td>
         <td>{{ $product->name }}</td>
     </tr><tr>
-        <td><strong>Details</strong></td>
+        <td><strong>Jabatan</strong></td>
         <td>{{ $product->detail }}</td>
     </tr><tr>
-        <td><strong>Harga (Rp)</strong></td>
-        <td>            Rp{{ $product->harga }}</td>
+        <td><strong>Alamat</strong></td>
+        <td>            Rp{{ $product->Alamat }}</td>
     </tr><tr>
-        <td><strong>Prosesor (GHz)  (Baseclock(GHz) x Threads)</strong> </td>
-        <td>            {{ $product->prosesor }} GHz</td>
+        <td><strong>Lama_Bekerja</strong> </td>
+        <td>            {{ $product->Lama_Bekerja }} </td>
     </tr><tr>
-        <td><strong>Kapasitas RAM (GB)</strong></td>
-        <td>            {{ $product->kapasitas_ram }} GB</td>
+        <td><strong>Management_Resiko</strong></td>
+        <td>            {{ $product->Management_Resiko }} </td>
     </tr><tr>
-        <td><strong>Kapasitas HDD (GB)</strong></td>
-        <td>            {{ $product->kapasitas_hdd }} GB</td>
+        <td><strong>Solidaritas_Team</strong></td>
+        <td>            {{ $product->Solidaritas_Team }} </td>
     </tr><tr>
-        <td><strong>Kapasitas SSD (GB)</strong></td>
-        <td>            {{ $product->kapasitas_ssd }} GB</td>
+        <td><strong>Pendidikan</strong></td>
+        <td>            {{ $product->Pendidikan }} </td>
     </tr><tr>
-        <td><strong>Kapasitas VRAM (GB)</strong></td>
-        <td>            {{ $product->kapasitas_vram }} GB</td>
+        <td><strong>Kemampuan_Lain</strong></td>
+        <td>            {{ $product->Kemampuan_Lain }} </td>
     </tr><tr>
-        <td width='30%'><strong>Kapasitas maksimal upgrade RAM (GB)</strong></td>
-        <td>            {{ $product->kapasitas_maxram }} GB</td>
+        <td width='30%'><strong></strong></td>
+        <td>            {{ $product-> }} </td>
     </tr><tr>
-        <td><strong>Berat (Gram)</strong></td>
-        <td>            {{ $product->berat }} gram</td>
+        <td><strong>Loyalitas</strong></td>
+        <td>            {{ $product->Loyalitas }} </td>
     </tr><tr>
-        <td><strong>Jenis layar</strong></td>
-        <td>@if ( $product->jenis_layar  === 1)Twisted Nematic (TN)@endif
-            @if ( $product->jenis_layar  === 3)In-Plane Switching (IPS) @endif
-            @if ( $product->jenis_layar  === 5)Organic Light-emitting Diode (OLED) @endif</td>
+        <td><strong></strong></td>
+        <td>@if ( $product)@endif
+            @if ( $product) @endif
+            @if ( $product) @endif</td>
     </tr><tr>
-        <td><strong>Refresh rate layar (Hz)</strong></td>
-        <td>            {{ $product->refresh_rate }} Hz</td>
+        <td><strong></strong></td>
+        <td>            {{ $product }} </td>
     </tr><tr>
-        <td><strong>Resolusi layar (jumlah pixel)</strong></td>
-        <td>            {{ $product->resolusi_layar }} pixel</td>
+        <td><strong></strong></td>
+        <td>            {{ $product }} </td>
     </tr>
 </table>
 
