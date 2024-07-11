@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Products Management')
+@section('title', 'Kriteria Management')
 
 @section('content_header')
 <h2> Show Product </h2>
@@ -41,7 +41,7 @@
 
 <table class="table table-hover table-striped">
     <tr>
-        <td><strong>Product Name</strong></td>
+        <td><strong>Name</strong></td>
         <td><strong>{{ $product->name }}</td>
     </tr><tr>
         <td><strong>Details</strong></td>
