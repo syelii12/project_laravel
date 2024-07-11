@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Laptop Detail')
+@section('title', 'Kriteria Detail')
 
 @section('content_header')
 <h2> Show Product </h2>
