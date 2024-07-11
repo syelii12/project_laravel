@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Rekomendasikan Laptop')
+@section('title', 'Rekomendasikan Kriteria')
 
 @section('content_header')
 <style>
@@ -103,8 +103,8 @@
     }
 </style>
 
-{{-- <h2> Rekomendasikan Laptop </h2> --}}
-<h4>Masukkan nilai preferensi spesifikasi laptop yang Anda inginkan secara manual atau gunakan nilai preset preferensi yang tersedia</h4>
+{{-- <h2> Rekomendasikan Kriteris </h2> --}}
+<h4>Masukkan nilai preferensi yang Anda inginkan secara manual atau gunakan nilai preset preferensi yang tersedia</h4>
 <div class="content">
     <div class="container-fluid">
         @include('partials.alert')
@@ -128,11 +128,11 @@
 @stop
 
 @section('content')
-{{-- <h3>Masukkan nilai preferensi spesifikasi laptop yang Anda inginkan atau gunakan nilai preset preferensi yang tersedia</h3> --}}
+{{-- <h3>Masukkan nilai preferensi yang Anda inginkan atau gunakan nilai preset preferensi yang tersedia</h3> --}}
 
   <div class="col-xs-5 col-sm-5 col-md-5">
     <div class="form-group">
-        {{-- <label for="inputStatus">Jenis layar</label> --}}
+        {{-- <label for="inputStatus">Jenis Kriteria</label> --}}
         <strong>Pembobotan yang digunakan:</strong>
         <select name="jenis_pembobotan" class="form-control custom-select" required>
             <option value="" disabled >-- Pilih salah satu --</option>
@@ -242,7 +242,7 @@
         {{-- <div class="col-xs-6 col-sm-6 col-md-6">
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas maksimal upgrade RAM (GB):</strong>
+                <strong></strong>
                 <div>
                     <label class="btn btn-outline-primary"><input type="radio" id="c7_rad0" name="prioritas[6]" value="Kriteria Diabaikan" ><span>Abaikan kriteria</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c7_rad1" name="prioritas[6]" value="Prioritas Nilai Terendah" ><span>Prioritas nilai terendah</span></label>
@@ -254,7 +254,7 @@
         </div> --}}
         {{-- <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Berat (Gram):</strong>
+                <strong></strong>
                 <div>
                     <label class="btn btn-outline-primary"><input type="radio" id="c8_rad0" name="prioritas[7]" value="Kriteria Diabaikan" ><span>Abaikan kriteria</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c8_rad1" name="prioritas[7]" value="Prioritas Nilai Terendah" checked><span>Prioritas nilai terendah</span></label>
@@ -266,7 +266,7 @@
         </div> --}}
         {{-- <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Ukuran layar (Inci):</strong>
+                <strong></strong>
                 <div>
                     <label class="btn btn-outline-primary"><input type="radio" id="c9_rad0" name="prioritas[8]" value="Kriteria Diabaikan" ><span>Abaikan kriteria</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c9_rad1" name="prioritas[8]" value="Prioritas Nilai Terendah" ><span>Prioritas nilai terendah</span></label>
@@ -279,7 +279,7 @@
        
         {{-- <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Refresh rate layar (Hz):</strong>
+                <strong></strong>
                 <div>
                     <label class="btn btn-outline-primary"><input type="radio" id="c11_rad0" name="prioritas[10]" value="Kriteria Diabaikan" ><span>Abaikan kriteria</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c11_rad1" name="prioritas[10]" value="Prioritas Nilai Terendah" ><span>Prioritas nilai terendah</span></label>
@@ -291,19 +291,19 @@
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Resolusi layar (jumlah pixel):</strong> (pixel vertical x pixel horizontal) 
+                <strong></strong>  
                 <div>
                     <label class="btn btn-outline-primary"><input type="radio" id="c12_rad0" name="prioritas[11]" value="Kriteria Diabaikan" ><span>Abaikan kriteria</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c12_rad1" name="prioritas[11]" value="Prioritas Nilai Terendah" ><span>Prioritas nilai terendah</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c12_rad2" name="prioritas[11]" value="Prioritas Nilai Tertinggi" checked><span>Prioritas nilai tertinggi</span></label>
                     <label class="btn btn-outline-primary"><input type="radio" id="c12_rad3" name="prioritas[11]" value="Prioritas Nilai Preferensi" @if (is_numeric($presetpreference->resolusi_layar)) checked @endif><span>Preferensi nilai:</span></label>
                 </div>
-                <input type="number" id="c12" name="resolusi_layar" value="{{ $presetpreference->resolusi_layar }}" @if (!(is_numeric($presetpreference->resolusi_layar))) disabled @endif class="form-control" placeholder="Jumlah pixel (pixel vertical x pixel horizontal)" min=0 max="80000000" list="resolution" required>
+                <input type="number" id="c12" name="" value="{{ $presetpreference }}" @if (!(is_numeric($presetpreference))) disabled @endif class="form-control" placeholder="" min=0 max="80000000" list="resolution" required>
                 <datalist id="resolution">
-                    <option value="8294400">3840 * 2160 (4K)</option>
-                    <option value="2073600">1920 * 1080 (FullHD)</option>
-                    <option value="1049088">1366 * 768 (HD+)</option>
-                    <option value="921600" >1280 * 720 (HD)</option>
+                    <option value="8294400">3840 * 2160 </option>
+                    <option value="2073600">1920 * 1080 </option>
+                    <option value="1049088">1366 * 768 </option>
+                    <option value="921600" >1280 * 720 </option>
                 </datalist>
             </div>
         </div>
