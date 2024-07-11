@@ -1,15 +1,15 @@
 @extends('adminlte::page')
 
-@section('title', 'Hasil Rekomendasi Kriteria')
+@section('title', 'Hasil Rekomendasi Karyawan')
 
 @section('content_header')
 
-{{-- <h2> Hasil Rekomendasi Kriteria </h2> --}}
+{{-- <h2> Hasil Rekomendasi Karyawan </h2> --}}
 @stop
 
 @section('content')
 
-<h3> Berikut hasil rekomendasi Kriteria berdasarkan bobot kriteria dan nilai preferensi yang Anda masukkan</h3>
+<h3> Berikut hasil rekomendasi Karyawan berdasarkan bobot kriteria dan nilai preferensi yang Anda masukkan</h3>
 
 <div class="content">
     <div class="container-fluid">
@@ -147,11 +147,11 @@
                             </strong>
                         </td>
                     </tr><tr>
-                        <td><strong>Refresh rate layar (Hz)</strong></td>
-                        <td><strong>            {{ isDiabaikan($kriteria->pref_refresh_rate) }} @if(!(isKriteriaDiabaikan($kriteria->pref_refresh_rate)))Hz @endif </strong></td>
+                        <td><strong></strong></td>
+                        <td><strong>            {{ isDiabaikan($kriteria->) }} @if(!(isKriteriaDiabaikan($kriteria->))) @endif </strong></td>
                     </tr><tr>
-                        <td><strong>Resolusi layar (jumlah pixel)</strong></td>
-                        <td><strong>            {{ isDiabaikan($kriteria->pref_resolusi_layar) }} @if(!(isKriteriaDiabaikan($kriteria->pref_resolusi_layar)))pixel @endif </strong></td>
+                        <td><strong></strong></td>
+                        <td><strong>            {{ isDiabaikan($kriteria->) }} @if(!(isKriteriaDiabaikan($kriteria->))) @endif </strong></td>
                     </tr> --}}
                 </table>
 
@@ -171,7 +171,7 @@
 <section class="content">
     <div class="card card-primary">
         <div class="card-header">
-            <h3 class="card-title">Hasil Rekomendasi Produk</h3>
+            <h3 class="card-title">Hasil Rekomendasi Karyawan</h3>
   
             <div class="card-tools">
               <button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
