@@ -39,41 +39,41 @@
             <td>{{ $presetpreference->detail }}</td>
         </tr><tr>
             <td><strong>Lama Bekerja</strong></td>
-            <td>            Rp{{ $presetpreference->harga }}</td>
+            <td>            Rp{{ $presetpreference->harga }} </td>
         </tr><tr>
             <td><strong>Management Resiko</strong> </td>
-            <td>            {{ $presetpreference->prosesor }} GHz</td>
+            <td>            {{ $presetpreference->prosesor }} </td>
         </tr><tr>
             <td><strong>Solidaritas Team</strong></td>
-            <td>            {{ $presetpreference->kapasitas_ram }} GB</td>
+            <td>            {{ $presetpreference->kapasitas_ram }} </td>
         </tr><tr>
             <td><strong>Pendidikan</strong></td>
-            <td>            {{ $presetpreference->kapasitas_hdd }} GB</td>
+            <td>            {{ $presetpreference->kapasitas_hdd }} </td>
         </tr><tr>
             <td><strong>Kemampuan Lain</td>
-            <td>            {{ $presetpreference->kapasitas_ssd }} GB</td>
+            <td>            {{ $presetpreference->kapasitas_ssd }} </td>
         </tr><tr>
             <td><strong>Loyalitas</strong></td>
-            <td>            {{ $presetpreference->kapasitas_vram }} GB</td>
+            <td>            {{ $presetpreference->kapasitas_vram }} </td>
         </tr>
         
         {{-- <tr>
-            <td width='30%'><strong>Kapasitas maksimal upgrade RAM (GB)</strong></td>
-            <td>            {{ $presetpreference->kapasitas_maxram }} GB</td>
+            <td width='30%'><strong></strong></td>
+            <td>            {{ $presetpreference }} </td>
         </tr><tr>
-            <td><strong>Berat (Gram)</strong></td>
-            <td>            {{ $presetpreference->berat }} gram</td>
+            <td><strong></strong></td>
+            <td>            {{ $presetpreferencet }} </td>
         </tr><tr>
-            <td><strong>Jenis layar</strong></td>
-            <td>@if ( $presetpreference->jenis_layar  === 1)Twisted Nematic (TN)@endif
-                @if ( $presetpreference->jenis_layar  === 3)In-Plane Switching (IPS) @endif
-                @if ( $presetpreference->jenis_layar  === 5)Organic Light-emitting Diode (OLED) @endif</td>
+            <td><strong>Jenis Kriteria</strong></td>
+            <td>@if ( $presetpreference) @endif
+                @if ( $presetpreference) @endif
+                @if ( $presetpreference) @endif</td>
         </tr><tr>
-            <td><strong>Refresh rate layar (Hz)</strong></td>
-            <td>            {{ $presetpreference->refresh_rate }} Hz</td>
+            <td><strong></strong></td>
+            <td>            {{ $presetpreference }} </td>
         </tr><tr>
-            <td><strong>Resolusi layar (jumlah pixel)</strong></td>
-            <td>            {{ $presetpreference->resolusi_layar }} pixel</td>
+            <td><strong></strong></td>
+            <td>            {{ $presetpreference }} </td>
         </tr> --}}
     </table>
 </div>
