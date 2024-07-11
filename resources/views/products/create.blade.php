@@ -1,9 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'Products Management')
+@section('title', 'Kriteria Management')
 
 @section('content_header')
-<h2> Add New Product </h2>
+<h2> Add New Kriteria </h2>
 
 <style>
     {
@@ -137,7 +137,7 @@
             <div class="form-group">
                 {{-- <label for="inputStatus"></label> --}}
                 <strong>J</strong>
-                <select name="jenis_layar" class="form-control custom-select" required>
+                <select name="Kriteria" class="form-control custom-select" required>
                     <option value="" selected disabled>-- Pilih salah satu --</option>
                     <option value="1"></option>
                     <option value="3"></option>
