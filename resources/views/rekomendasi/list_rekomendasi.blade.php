@@ -1,15 +1,15 @@
 @extends('adminlte::page')
 
-@section('title', 'Hasil Rekomendasi Laptop')
+@section('title', 'Hasil Rekomendasi Kriteria')
 
 @section('content_header')
 
-{{-- <h2> Hasil Rekomendasi Laptop </h2> --}}
+{{-- <h2> Hasil Rekomendasi Kriteria </h2> --}}
 @stop
 
 @section('content')
 
-<h3> Berikut hasil rekomendasi produk berdasarkan bobot kriteria dan nilai preferensi yang Anda masukkan</h3>
+<h3> Berikut hasil rekomendasi Kriteria berdasarkan bobot kriteria dan nilai preferensi yang Anda masukkan</h3>
 
 <div class="content">
     <div class="container-fluid">
@@ -192,9 +192,9 @@
     @foreach ($products as $key => $product)
     <tr>
         <td style="text-align: center"> <strong> @if ($key===0) <i class="fas fa-fw fa-crown"></i>@else {{ $key+1 }} @endif   </strong></td>
-        <td><i class="fas fa-fw fa-laptop"></i> <strong> {{ $product->name }} </strong></td>
+        <td><i class="fas fa-fw fa-Kriteria"></i> <strong> {{ $product->name }} </strong></td>
         <td><strong>{{ $product->n_bobot }} </strong></td>
-        <td>Rp{{ number_format($product->harga,0,",",".") }}</td>
+        <td>Rp{{ number_format($product->,0,",",".") }}</td>
         <td>{{ $product->detail }}</td>
         <td>
             {{-- <a class="btn btn-info" href="{{ route('search.show',$product->id) }}">Show</a> --}}
