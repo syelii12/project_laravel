@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'Products Management')
+@section('title', 'Kriteria Management')
 
 @section('content_header')
 <h2> Edit Kriteria </h2>
