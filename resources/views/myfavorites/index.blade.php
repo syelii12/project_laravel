@@ -3,12 +3,12 @@
 @section('title', 'My Favorite Products')
 
 @section('content_header')
-<h2> My Favorite Products </h2>
+<h2> My Favorite Alternatif </h2>
 @stop
 
 @section('content')
 
-<p>Hello {{ auth()->user()->name }}, here you can manage your favorite products</p>
+<p>Hello {{ auth()->user()->name }}, here you can manage your favorite Alternatif</p>
 
 <div class="content">
     <div class="container-fluid">
@@ -42,7 +42,7 @@
     <tr>
         <th style="text-align: center">No</th>
         <th>Nama Produk</th>
-        <th>Harga</th>
+        <th>Jabatan</th>
         <th>Deskripsi</th>
         <th width='280px'>Action</th>
     </tr>
