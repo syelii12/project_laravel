@@ -11,7 +11,7 @@
 
 @section('content')
 
-{{-- <h4>Hello {{ auth()->user()->name }}, silakan pilih nilai preset preferensi spesifikasi laptop yang tersedia dengan menekan tombol Gunakan Preset</h4> --}}
+{{-- <h4>Hello {{ auth()->user()->name }}, silakan pilih nilai preset yang tersedia dengan menekan tombol Gunakan Preset</h4> --}}
 
 <div class="content">
     <div class="container-fluid">
