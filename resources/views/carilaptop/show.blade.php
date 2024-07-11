@@ -3,7 +3,7 @@
 @section('title', 'Kriteria Detail')
 
 @section('content_header')
-<h2> Show Product </h2>
+<h2> Show Kriteria </h2>
 <div class="pull-right">
 
     @if ( !($is_favorite) )
