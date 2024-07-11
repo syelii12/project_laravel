@@ -72,44 +72,44 @@
         <div class="column">
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Nama Produk:</strong>
+                <strong>Nama Kriteria:</strong>
                 <input type="text" name="name" class="form-control" placeholder="Name" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Harga (Rp):</strong>
-                <input type="number" name="harga" class="form-control" placeholder="Harga (Rp)" min=0 max="200000000" required>
+                <strong>Lama_Bekerja:</strong>
+                <input type="number" name="lama_bekerja" class="form-control" placeholder="" min=0 max="" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Prosesor (GHz): </strong> (Baseclock(GHz) x Threads)
-                <input type="number" name="prosesor" class="form-control" placeholder="Prosesor (GHz)" min=0 step="0.1" max="200"  required>
+                <strong>Management_Resiko: </strong> (Baseclock(GHz) x Threads)
+                <input type="number" name="management_resiko" class="form-control" placeholder="" min=0 step="0.1" max=""  required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas RAM (GB):</strong>
-                <input type="number" name="kapasitas_ram" class="form-control" placeholder="Kapasitas RAM (GB)" min="0.1" step="0.1" max="64" required>
+                <strong>Solidaritas_Team:</strong>
+                <input type="number" name="Solidaritas_Team" class="form-control" placeholder="" min="0.1" step="0.1" max="" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas HDD (GB):</strong>
-                <input type="number" name="kapasitas_hdd" class="form-control" placeholder="Kapasitas HDD (GB)" min="0" step="0.1" max="5000"  required>
+                <strong>Pendidikan:</strong>
+                <input type="number" name="Pendidikan" class="form-control" placeholder="" min="0" step="0.1" max=""  required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas SSD (GB):</strong>
-                <input type="number" name="kapasitas_ssd" class="form-control" placeholder="Kapasitas SSD (GB)" min="0" step="0.1" max="5000" required>
+                <strong>kemampuan_Lain:</strong>
+                <input type="number" name="Kemampuan_Lain" class="form-control" placeholder="" min="0" step="0.1" max="" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas VRAM (GB):</strong>
-                <input type="number" name="kapasitas_vram" class="form-control" placeholder="Kapasitas VRAM (GB)" min="0.1" step="0.1" max="32" required>
+                <strong>Loyalitas:</strong>
+                <input type="number" name="Loyalitas" class="form-control" placeholder="" min="0.1" step="0.1" max="32" required>
             </div>
         </div>
         </div>
@@ -117,49 +117,49 @@
         <div class="column">
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Kapasitas maksimal upgrade RAM (GB):</strong>
-                <input type="number" name="kapasitas_maxram" class="form-control" placeholder="Kapasitas maksimal upgrade RAM (GB)" min="0.1" step="0.1" max="64" required>
+                <strong></strong>
+                <input type="number" name="" class="form-control" placeholder="" min="0.1" step="0.1" max="64" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Berat (Gram):</strong>
-                <input type="number" name="berat" class="form-control" placeholder="Berat (Gram)" min=0 max="10000" required>
+                <strong></strong>
+                <input type="number" name="" class="form-control" placeholder="" min=0 max="10000" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Ukuran layar (Inci):</strong>
-                <input type="number" name="ukuran_layar" class="form-control" placeholder="Ukuran layar (Inci)" min=5 step="0.1" max="30" required>
+                <strong></strong>
+                <input type="number" name="" class="form-control" placeholder="" min=5 step="0.1" max="30" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                {{-- <label for="inputStatus">Jenis layar</label> --}}
-                <strong>Jenis layar:</strong>
+                {{-- <label for="inputStatus"></label> --}}
+                <strong>J</strong>
                 <select name="jenis_layar" class="form-control custom-select" required>
                     <option value="" selected disabled>-- Pilih salah satu --</option>
-                    <option value="1">Twisted Nematic (TN)</option>
-                    <option value="3">In-Plane Switching (IPS)</option>
-                    <option value="5">Organic Light-emitting Diode (OLED)</option>
+                    <option value="1"></option>
+                    <option value="3"></option>
+                    <option value="5"></option>
                 </select>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Refresh rate layar (Hz):</strong>
-                <input type="number" name="refresh_rate" class="form-control" placeholder="Refresh rate layar (Hz)" min=0 max="1000" required>
+                <strong></strong>
+                <input type="number" name="" class="form-control" placeholder="" min=0 max="1000" required>
             </div>
         </div>
         <div class="col-xs-11 col-sm-11 col-md-11">
             <div class="form-group">
-                <strong>Resolusi layar (jumlah pixel):</strong> (pixel vertical x pixel horizontal) 
-                <input type="number" name="resolusi_layar" class="form-control" placeholder="Jumlah pixel (pixel vertical x pixel horizontal)" min=0 max="80000000" list="resolution" required>
+                <strong></strong> 
+                <input type="number" name="" class="form-control" placeholder="" min=0 max="80000000" list="resolution" required>
                 <datalist id="resolution">
-                    <option value="8294400">3840 * 2160 (4K)</option>
-                    <option value="2073600">1920 * 1080 (FullHD)</option>
-                    <option value="1049088">1366 * 768 (HD+)</option>
-                    <option value="921600" >1280 * 720 (HD)</option>
+                    <option value="8294400"></option>
+                    <option value="2073600"></option>
+                    <option value="1049088"></option>
+                    <option value="921600" ></option>
                 </datalist>
             </div>
         </div>

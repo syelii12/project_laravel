@@ -54,43 +54,43 @@
             <td><strong>Details</strong></td>
             <td><strong>{{ $product->detail }}</strong></td>
         </tr><tr>
-            <td><strong>Harga (Rp)</strong></td>
-            <td><strong>            Rp{{ $product->harga }}</strong></td>
+            <td><strong>Lama Bekerja</strong></td>
+            <td><strong>            Rp{{ $product->Lama Bekerja }}</strong></td>
         </tr><tr>
-            <td><strong>Prosesor (GHz)  (Baseclock(GHz) x Threads)</strong> </td>
-            <td><strong>            {{ $product->prosesor }} GHz</td>
+            <td><strong></strong> </td>
+            <td><strong>            {{ $product }} GHz</td>
         </tr><tr>
-            <td><strong>Kapasitas RAM (GB)</strong></td>
-            <td><strong>            {{ $product->kapasitas_ram }} GB</strong></td>
+            <td><strong>Management Resiko</strong></td>
+            <td><strong>            {{ $product->Management_Resiko }} </strong></td>
         </tr><tr>
-            <td><strong>Kapasitas HDD (GB)</strong></td>
-            <td><strong>            {{ $product->kapasitas_hdd }} GB</strong></td>
+            <td><strong>Solidaritas Team</strong></td>
+            <td><strong>            {{ $product->Solidaritas_Team }} GB</strong></td>
         </tr><tr>
-            <td><strong>Kapasitas SSD (GB)</strong></td>
-            <td><strong>            {{ $product->kapasitas_ssd }} GB</strong></td>
+            <td><strong>Pendidikan</strong></td>
+            <td><strong>            {{ $product->Pendidikan }} </strong></td>
         </tr><tr>
-            <td><strong>Kapasitas VRAM (GB)</strong></td>
-            <td><strong>            {{ $product->kapasitas_vram }} GB</strong></td>
+            <td><strong>Kemampuan Lain</strong></td>
+            <td><strong>            {{ $product->kemampuan_Lain }} </strong></td>
         </tr><tr>
-            <td width='30%'><strong>Kapasitas maksimal upgrade RAM (GB)</strong></td>
-            <td><strong>            {{ $product->kapasitas_maxram }} GB</strong></td>
+            <td width='30%'><strong>Loyalitas</strong></td>
+            <td><strong>            {{ $product->Loyalitas }} </strong></td>
         </tr><tr>
-            <td><strong>Berat (Gram)</strong></td>
-            <td><strong>            {{ $product->berat }} gram</strong></td>
+            <td><strong></strong></td>
+            <td><strong>            {{ $product }} </strong></td>
         </tr><tr>
-            <td><strong>Ukuran layar</strong></td>
-            <td><strong>            {{ $product->ukuran_layar }} inci</strong></td>
+            <td><strong></strong></td>
+            <td><strong>            {{ $product-> }} </strong></td>
         </tr><tr>
-            <td><strong>Jenis layar</strong></td>
-            <td><strong>@if ( $product->jenis_layar  === 1)Twisted Nematic (TN)@endif
-                @if ( $product->jenis_layar  === 3)In-Plane Switching (IPS) @endif
-                @if ( $product->jenis_layar  === 5)Organic Light-emitting Diode (OLED) @endif</strong></td>
+            <td><strong></strong></td>
+            <td><strong>@if ( $product)@endif
+                @if ( $product) @endif
+                @if ( $product) @endif</strong></td>
         </tr><tr>
-            <td><strong>Refresh rate layar (Hz)</strong></td>
-            <td><strong>            {{ $product->refresh_rate }} Hz</strong></td>
+            <td><strong></strong></td>
+            <td><strong>            {{ $product }} </strong></td>
         </tr><tr>
-            <td><strong>Resolusi layar (jumlah pixel)</strong></td>
-            <td><strong>            {{ $product->resolusi_layar }} pixel</strong></td>
+            <td><strong> ()</strong></td>
+            <td><strong>            {{ $product }} </strong></td>
         </tr>
     </table>
 {{-- </div> --}}
